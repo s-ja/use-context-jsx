@@ -5,9 +5,9 @@ import Content from "./Content";
 export default function Page({ isDark, toggleThema }) {
   return (
     <div className="page">
-      <Header isDark={isDark} />
-      <Content isDark={isDark} />
-      <Footer isDark={isDark} toggleThema={toggleThema}></Footer>
+      <Header />
+      <Content />
+      <Footer />
     </div>
   );
 }
